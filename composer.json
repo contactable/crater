@@ -76,8 +76,10 @@
         "sort-packages": true
     },
     "extra": {
-        "laravel": {
-            "dont-discover": []
+       "laravel": {
+            "dont-discover": [
+                "barryvdh/laravel-ide-helper"
+            ]
         }
     }
 }
